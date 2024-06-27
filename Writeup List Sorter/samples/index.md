@@ -1,6 +1,6 @@
 # How to run
 
-Parse the file you want to sort as the first argument
+Pass the file you want to sort as the first argument
 
 ```
  python .\parse.py .\file.md
