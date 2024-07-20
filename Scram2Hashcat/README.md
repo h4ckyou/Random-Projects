@@ -21,7 +21,7 @@ The salt (base64 encoded), number of iterations and storedKey (base64 encoded) a
 
 Please note that the iteration count (used in the pbkdf2 function) can be adjusted; default for SHA-1 is 10000 and for SHA2 is 15000. 
 
-### About TOOL
+### About Tool
 
 Scram2Hashcat is a tool which converts a SCRAM credential file to a format hashcat can understand
 
