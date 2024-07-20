@@ -23,6 +23,40 @@ Please note that the iteration count (used in the pbkdf2 function) can be adjust
 
 ### About TOOL
 
-While doing a machine I came across a JSON file that had an encrypted credentials
+Scram2Hashcat is a tool which converts a SCRAM credential file to a format hashcat can understand
 
-The format was in SCRAM which is what MongoDB uses and I didn't see tool I could easily make use of to convert it to a format which I can crack
+Hashcat has the hash [mode](https://hashcat.net/wiki/doku.php?id=example_hashes) which can the hash, but there are not many tools that can convert it to hash
+
+### How to run?
+
+```
+python3 scram2hashcat.py creds.json
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
