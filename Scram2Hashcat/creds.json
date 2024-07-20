@@ -1,0 +1,23 @@
+{
+    "_id" : "admin.mongo", 
+    "userId" : "85cb23bd-6a09-4f5d-9377-ed8f001225f8",
+    "user" : "mongo",
+    "db" : "admin", 
+    "credentials" : { 
+        "SCRAM-SHA-1" : 
+        { "iterationCount" : 10000, 
+            "salt" : "1WPvAjXCENvcyAU8oUFLSg==", 
+            "storedKey" : "917r8X6JHtftNQwSdPpa2zOQ5ms=", 
+            "serverKey" : "dRM8fmOwzLmwxXBOWGxGRQo7BWc=" 
+        },
+         "SCRAM-SHA-256" : { 
+            "iterationCount" : 15000, 
+            "salt" : "EvaBRerxcANQinVWsqYWfGt7b0vQ0koDjgQvmw==", 
+            "storedKey" : "ZHVBEbtbHI2bnxIb2F+uo05TtgPobOWrKcZtws2MVu8=", 
+            "serverKey" : "V62QjNMvV1aQjv1BMUCxAnNzYA/+Ux7SUtlU9LDSXn0=" 
+        }
+    }, 
+    "roles" : [ { 
+        "role" : "root", 
+        "db" : "admin" 
+    } ] }
