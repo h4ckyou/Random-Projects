@@ -4,7 +4,9 @@
 
 MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License (SSPL).
 
-MongoDB supports multiple authentication mechnanisms. Salted Challenge Response Authentication Mechanism (SCRAM) is the default authentication mechanism for MongoDB. SCRAM is based on the IETF RFC 5802 standard that defines best practices for implementation of challenge-response mechanisms for authenticating users with passwords. See Mongo_scram.
+MongoDB supports multiple authentication mechnanisms. Salted Challenge Response Authentication Mechanism (SCRAM) is the default authentication mechanism for MongoDB. SCRAM is based on the IETF RFC 5802 standard that defines best practices for implementation of challenge-response mechanisms for authenticating users with passwords.
+
+RFC 5802 describes the challenge-response usage of SCRAM. Having admin access to the database, we only need to focus on the credential generation and storage part (and not the challenge-response mechanism, meaning the serverKey and signature parts are not needed). 
 
 ### About TOOL
 
