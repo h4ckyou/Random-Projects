@@ -25,7 +25,7 @@ Please note that the iteration count (used in the pbkdf2 function) can be adjust
 
 Scram2Hashcat is a tool which converts a SCRAM credential file to a format hashcat can understand
 
-Hashcat has the hash [mode](https://hashcat.net/wiki/doku.php?id=example_hashes) which can the hash, but there are not many tools that can convert it to hash
+Hashcat has the hash [mode](https://hashcat.net/wiki/doku.php?id=example_hashes) which can crack the hash, but there are not many tools that can convert it to hash
 
 ### How to run?
 
